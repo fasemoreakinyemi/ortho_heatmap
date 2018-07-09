@@ -34,7 +34,7 @@ ax.set_xticks(np.arange(len(species_list)))
 ax.set_yticks(np.arange(len(gene_list)))
 ax.set_xticklabels(species_list)
 ax.set_yticklabels(gene_list)
-plt.setp(ax.get_xticklabels(), rotation=45, ha="right")
+plt.setp(ax.get_xticklabels(), rotation=30, ha="right")
 cbar = plt.colorbar(im) 
 cbar.ax.get_yaxis().labelpad = 15
 cbar.ax.set_ylabel('Strength of orthologue prediction', rotation=270)
